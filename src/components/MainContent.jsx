@@ -26,7 +26,7 @@ const MainContent = () => {
         </p>
       </IntersectionAnim>
       <IntersectionAnim index={10} delay={0.1} type={"transLeft"}>
-        <a href="/resume.pdf" target="_blank">
+        <a href="resume.pdf" target="_blank">
           <div className="pt-12 pb-20 md:pt-8 md:pb-0">
             <OutlinedButton text={"Check out my resume!"} />
           </div>
