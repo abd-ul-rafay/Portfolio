@@ -39,7 +39,7 @@ const AboutContent = () => {
             className={`w-full aspect-square object-cover rounded-md absolute z-20 transition-all duration-500 ${
               isImageHovered && "scale-105"
             }`}
-            src="/profile.jpeg"
+            src="profile.jpeg"
             alt="profile"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}

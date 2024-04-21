@@ -1,5 +1,5 @@
 const email = "abdulrafaykhatana@gmail.com";
-const githubLink = "https://https://github.com/abd-ul-rafay";
+const githubLink = "https://github.com/abd-ul-rafay";
 const facebookLink = "https://facebook.com/abd-ul-rafay";
 const instagramLink = "https://instagram.com/abd.ul.rafay";
 const linkedinLink = "https://linkedin.com/abd-ul-rafay";
