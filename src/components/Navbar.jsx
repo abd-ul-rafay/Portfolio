@@ -18,8 +18,8 @@ const Navbar = () => {
       <IntersectionAnim index={0} delay={0.1} type={"transDown"}>
         <div className="md:px-4">
           <a href="/">
-            <img className="w-12" src="logo.png" alt="logo" />
-          </a>
+            <img className="w-12" src="/logo.png" alt="logo" />
+          </a> 
         </div>
       </IntersectionAnim>
       <div className="hidden md:flex items-center">

@@ -1,9 +1,9 @@
 const email = "abdulrafaykhatana@gmail.com";
 const githubLink = "https://github.com/abd-ul-rafay";
-const facebookLink = "https://facebook.com/abd-ul-rafay";
+const facebookLink = "https://www.facebook.com/abd.ul.rafay.khatana";
 const instagramLink = "https://instagram.com/abd.ul.rafay";
-const linkedinLink = "https://linkedin.com/abd-ul-rafay";
-const twitterLink = "https://twitter.com/abd-ul-rafay";
+const linkedinLink = "https://linkedin.com/in/abd-ul-rafay";
+const twitterLink = "https://twitter.com/abd_ul_rafay";
 
 const mainHeading2 = "I do projects for web and mobile.";
 const mainDescription =
@@ -26,7 +26,7 @@ const skills = [
   },
   {
     name: "Mobile Technologies",
-    subSkills: ["Flutter", "Native Android", "React Native"],
+    subSkills: ["Flutter", "Native Android", "Firebase"],
   },
   {
     name: "Web Technologies",
@@ -48,6 +48,20 @@ const projects = [
   {
     name: "Mobile Projects",
     projects: [
+     {
+        name: "Vocal Odyssey",
+        repoSource: "https://github.com/abd-ul-rafay/Vocal-Odyssey",
+        tech: [
+          "Flutter",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Murf.ai",
+          "Speechace"
+        ],
+        description:
+          "Vocal Odyssey is an AI-powered mobile application developed to help young children enhance their pronunciation and speech through engaging, interactive, and gamified learning. The app guides users through structured levels—phonics, words, and sentences—where children hear audio via text-to-speech and then repeat the word, receiving real-time feedback using AI-based speech scoring. They earn stars and rewards based on accuracy. Parents and teachers can track progress through visual graphs and reports. Admins have tools to manage users, modules, and learning levels. Developed as a final year project, the app brings together active speech training with educational gamification.",
+      },
       {
         name: "TrackED",
         repoSource: "https://github.com/abd-ul-rafay/TrackED",
@@ -66,13 +80,6 @@ const projects = [
         repoSource: "https://github.com/abd-ul-rafay/buy_right",
         tech: ["Flutter", "Node.jS", "Express.js", "MongoDB"],
         description: "BuyRight is a comprehensive Flutter-based ecommerce mobile application, offering users a seamless shopping experience with features including user authentication, product browsing with detailed descriptions and images, shopping cart functionality, order placement and tracking, and a user-friendly interface for payments via various gateways. The app also provides administrators with robust management tools, allowing them to add products, track orders, manage users, and gain valuable insights into business performance through analytics tools. Powered by Flutter for the frontend, Node.js/Express.js for the backend, and MongoDB for the database, BuyRight ensures efficiency and reliability in every aspect of online shopping and administration.",
-      },
-      {
-        name: "Traveling App",
-        repoSource: "https://github.com/abd-ul-rafay/Travel-App-UI",
-        tech: ["Flutter", "Firebase"],
-        description:
-          "The Flutter Travel App showcases a stunning user interface, comprising four main screens. The Home screen features a horizontal listview displaying recommended places, alongside a vertical listview presenting all available destinations. The Search screen enables users to explore all listed places conveniently. Additionally, the Favourites screen allows users to bookmark their preferred locations for easy access. Furthermore, a bottom modal sheet dynamically displays detailed information about selected places upon clicking, enhancing the user experience and facilitating seamless navigation throughout the app.",
       },
       {
         name: "Instagram Clone",
