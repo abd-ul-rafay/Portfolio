@@ -22,7 +22,7 @@ const skillsDescription =
 const skills = [
   {
     name: "Programming Languages",
-    subSkills: ["JavaScript", "Dart", "C++", "Python"],
+    subSkills: ["JavaScript", "TypeScript", "Dart", "C++", "Python"],
   },
   {
     name: "Mobile Technologies",
@@ -30,13 +30,13 @@ const skills = [
   },
   {
     name: "Web Technologies",
-    subSkills: ["HTML5/CSS3", "React.Js", "Express.Js", "Django"],
+    subSkills: ["HTML5 / CSS3", "React.Js", "TypeScript", "Express.Js"],
   },
   { name: "Databases", subSkills: ["MongoDB", "Firebase", "MySQL"] },
   {
     name: "Tools",
     subSkills: [
-      "VSCode/AndroidStudio",
+      "VSCode / AndroidStudio",
       "Git/Github",
       "Docker",
       "Postman",
@@ -46,9 +46,56 @@ const skills = [
 
 const projects = [
   {
+    name: "Web Projects",
+    projects: [
+      {
+        name: "Imaginoir",
+        repoSource: "https://github.com/abd-ul-rafay/Imaginoir",
+        tech: ["MERN Stack", "TypeScript", "Tailwind CSS", "Stripe", "Cloudinary"],
+        description:
+          "Imaginoir is a full-stack AI image generator where users can create AI images via prompts, manage a personal gallery, explore community posts, and purchase credits using Stripe. Features include authentication (email/Google), image downloads, cloud storage, and a sleek dark/light UI built with shadcn and Tailwind CSS.",
+      },
+      {
+        name: "ChatConnect",
+        repoSource: "https://github.com/abd-ul-rafay/ChatConnect",
+        tech: ["React.js", "Node.js", "Socket.IO", "MongoDB"],
+        description:
+          "ChatConnect is the ultimate real-time chat app powered by the cutting-edge MERN Stack and turbocharged with Socket.io technology. Dive into seamless communication where users can easily register and login, gaining instant access to a world of dynamic conversation. With ChatConnect, sending and receiving real-time messages has never been smoother, ensuring that your interactions are as fluid as face-to-face conversations. Explore your message history effortlessly, with a comprehensive archive of all your exchanges with other users, empowering you to pick up right where you left off. Join the ChatConnect community today and experience the future of instant communication, where every connection is just a click away.",
+      },
+      {
+        name: "SocialSphere",
+        repoSource: "https://github.com/abd-ul-rafay/SocialSphere",
+        tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+        description:
+          "Social Sphere is a all-in-one destination for connecting, sharing, and engaging with a vibrant online community. Seamlessly register and login to unlock a world of possibilities where you can effortlessly create posts, share your thoughts, and contribute to lively discussions. Dive into a dynamic feed where you can explore a diverse range of content curated just for you, and express your appreciation with likes and meaningful comments. Expand your social circle by making new friends, fostering connections that enrich your online experience. Discover more about your peers by exploring their profiles, gaining insights into their interests and passions. Join us on Social Sphere and immerse yourself in a thriving digital landscape where connections are made, stories are shared, and friendships flourish.",
+      },
+      {
+        name: "Portfolio",
+        repoSource: "https://github.com/abd-ul-rafay/portfolio",
+        tech: ["React.js", "Tailwind"],
+        description:
+          "My portfolio website, crafted with React for seamless functionality and adorned with Tailwind CSS for a sleek and responsive design. Explore a showcase of my projects, skills, and experiences, beautifully presented across all devices, ensuring an optimal viewing experience whether you're on a desktop, tablet, or smartphone. From captivating animations to intuitive navigation, every element is thoughtfully designed to captivate and engage visitors. Step into my world and discover the passion and expertise that drive my journey. ",
+      },
+      {
+        name: "Twitter Clone",
+        repoSource: "https://github.com/abd-ul-rafay/TwitterClone",
+        tech: ["Python", "Django"],
+        description:
+          "Twitter-inspired platform built on Django, where users can immerse themselves in a world of social connection and expression. With seamless account creation, users can effortlessly join the community and start sharing their thoughts with the world. Tweet freely, knowing that you have full control with the ability to delete your posts at any time. Dive into the dynamic feed to discover a diverse array of content from users you follow, ensuring an engaging and personalized experience. Explore the profiles of other users to gain insights into their interests and perspectives, and with the simple click of a button, forge connections by following them. What's more, our platform encourages reciprocal relationships, allowing users to follow each other back, fostering a community where connections flourish.",
+      },
+      {
+        name: "Meals App",
+        repoSource: "https://github.com/abd-ul-rafay/meals-app",
+        tech: ["React.js", "ContextAPI"],
+        description:
+          "React Meals App with culinary exploration meets convenience, all powered by the robust Context API. Delve into a world of gastronomic delights as we fetch an array of delectable meals from themealdb.com, showcasing them in a visually stunning interface designed to tantalize your taste buds. With our intuitive search feature, finding your next culinary masterpiece is a breeze—simply input your cravings, and let us do the rest. But the experience doesn't stop there—mark your favorite meals with a simple click, and watch as they're seamlessly persisted locally, ensuring they're always at your fingertips for future indulgence. Whether you're a seasoned chef or a culinary novice, React Meals App is your passport to a world of flavor and discovery.",
+      },
+    ],
+  },
+  {
     name: "Mobile Projects",
     projects: [
-     {
+      {
         name: "Vocal Odyssey",
         repoSource: "https://github.com/abd-ul-rafay/Vocal-Odyssey",
         tech: [
@@ -102,46 +149,6 @@ const projects = [
         description:
           "Advanced Notes app, empowered by Room Database technology for seamless note management. Create, read, update, and delete notes effortlessly, ensuring your thoughts and ideas are always organized and easily accessible. Need to find a specific note? Our app offers a convenient search function, enabling swift retrieval of your most important memos. Plus, each note is stamped with the date it was added, providing valuable context and chronology to your entries. And when it's time for a fresh start, our app simplifies the process with a one-tap option to delete all notes, giving you a clean slate to begin anew. Experience the ultimate in note-taking convenience with our feature-rich app.",
       }
-    ],
-  },
-  {
-    name: "Web Projects",
-    projects: [
-      {
-        name: "SocialSphere",
-        repoSource: "https://github.com/abd-ul-rafay/SocialSphere",
-        tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
-        description:
-          "Social Sphere is a all-in-one destination for connecting, sharing, and engaging with a vibrant online community. Seamlessly register and login to unlock a world of possibilities where you can effortlessly create posts, share your thoughts, and contribute to lively discussions. Dive into a dynamic feed where you can explore a diverse range of content curated just for you, and express your appreciation with likes and meaningful comments. Expand your social circle by making new friends, fostering connections that enrich your online experience. Discover more about your peers by exploring their profiles, gaining insights into their interests and passions. Join us on Social Sphere and immerse yourself in a thriving digital landscape where connections are made, stories are shared, and friendships flourish.",
-      },
-      {
-        name: "ChatConnect",
-        repoSource: "https://github.com/abd-ul-rafay/ChatConnect",
-        tech: ["React.js", "Node.js", "Socket.IO", "MongoDB"],
-        description:
-          "ChatConnect is the ultimate real-time chat app powered by the cutting-edge MERN Stack and turbocharged with Socket.io technology. Dive into seamless communication where users can easily register and login, gaining instant access to a world of dynamic conversation. With ChatConnect, sending and receiving real-time messages has never been smoother, ensuring that your interactions are as fluid as face-to-face conversations. Explore your message history effortlessly, with a comprehensive archive of all your exchanges with other users, empowering you to pick up right where you left off. Join the ChatConnect community today and experience the future of instant communication, where every connection is just a click away.",
-      },
-      {
-        name: "Portfolio",
-        repoSource: "https://github.com/abd-ul-rafay/portfolio",
-        tech: ["React.js", "Tailwind"],
-        description:
-          "My portfolio website, crafted with React for seamless functionality and adorned with Tailwind CSS for a sleek and responsive design. Explore a showcase of my projects, skills, and experiences, beautifully presented across all devices, ensuring an optimal viewing experience whether you're on a desktop, tablet, or smartphone. From captivating animations to intuitive navigation, every element is thoughtfully designed to captivate and engage visitors. Step into my world and discover the passion and expertise that drive my journey. ",
-      },
-      {
-        name: "Twitter Clone",
-        repoSource: "https://github.com/abd-ul-rafay/TwitterClone",
-        tech: ["Python", "Django"],
-        description:
-          "Twitter-inspired platform built on Django, where users can immerse themselves in a world of social connection and expression. With seamless account creation, users can effortlessly join the community and start sharing their thoughts with the world. Tweet freely, knowing that you have full control with the ability to delete your posts at any time. Dive into the dynamic feed to discover a diverse array of content from users you follow, ensuring an engaging and personalized experience. Explore the profiles of other users to gain insights into their interests and perspectives, and with the simple click of a button, forge connections by following them. What's more, our platform encourages reciprocal relationships, allowing users to follow each other back, fostering a community where connections flourish.",
-      },
-      {
-        name: "Meals App",
-        repoSource: "https://github.com/abd-ul-rafay/meals-app",
-        tech: ["React.js", "ContextAPI"],
-        description:
-          "React Meals App with culinary exploration meets convenience, all powered by the robust Context API. Delve into a world of gastronomic delights as we fetch an array of delectable meals from themealdb.com, showcasing them in a visually stunning interface designed to tantalize your taste buds. With our intuitive search feature, finding your next culinary masterpiece is a breeze—simply input your cravings, and let us do the rest. But the experience doesn't stop there—mark your favorite meals with a simple click, and watch as they're seamlessly persisted locally, ensuring they're always at your fingertips for future indulgence. Whether you're a seasoned chef or a culinary novice, React Meals App is your passport to a world of flavor and discovery.",
-      },
     ],
   },
   {
