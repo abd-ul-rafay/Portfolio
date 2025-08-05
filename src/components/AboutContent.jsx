@@ -34,26 +34,16 @@ const AboutContent = () => {
           <div className="pb-4" dangerouslySetInnerHTML={{__html: aboutPara3}}></div>
           </IntersectionAnim>
         </div>
-        <div className="w-full md:w-1/2 lg:w-80 max-w-80 md:max-w-full aspect-square relative flex">
+        <div className="w-full md:w-1/2 lg:w-80 max-w-80 md:max-w-full p-4 aspect-square relative flex">
           <img
-            className={`w-full aspect-square object-cover rounded-md absolute z-20 transition-all duration-500 ${
+            className={`aspect-square object-cover rounded-md absolute bg-gray-200 dark:bg-gray-800 transition-all duration-500 ${
               isImageHovered && "scale-105"
             }`}
-            src="profile.jpeg"
+            src="profile.png"
             alt="profile"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           />
-          <div
-            className={`w-full aspect-square rounded-md border-2 border-sky-500 dark:border-sky-400 rotate-6 absolute transition-all duration-500 z-10 ${
-              isImageHovered && "rotate-0"
-            }`}
-          ></div>
-          <div
-            className={`w-full aspect-square rounded-md border-2 border-sky-500 dark:border-sky-400 rotate-12 absolute transition-all duration-500 z-10 ${
-              isImageHovered && "rotate-0"
-            }`}
-          ></div>
         </div>
       </div>
     </div>

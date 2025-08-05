@@ -5,6 +5,7 @@ import FixedSocialIconBar from "./components/FixedSocialIconBar";
 import FixedEmailBar from "./components/FixedEmailBar";
 import ContentWrapper from "./components/ContentWrapper";
 import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +39,7 @@ function App() {
       <FixedSocialIconBar />
       <FixedEmailBar />
       <ContentWrapper />
+      <ScrollToTopButton />
       <Footer />
     </>
   );

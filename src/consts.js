@@ -20,29 +20,12 @@ const skillsDescription =
   "As previously stated, my expertise lies in developing mobile and web applications. On a daily basis, I utilize a variety of technologies to both build and deploy my applications. These technologies are essential components of my workflow, ensuring that my projects are developed efficiently and deployed seamlessly. Some of the key technologies are below.";
 
 const skills = [
-  {
-    name: "Programming Languages",
-    subSkills: ["JavaScript", "TypeScript", "Dart", "C++", "Python"],
-  },
-  {
-    name: "Mobile Technologies",
-    subSkills: ["Flutter", "Native Android", "Firebase"],
-  },
-  {
-    name: "Web Technologies",
-    subSkills: ["HTML5 / CSS3", "React.Js", "TypeScript", "Express.Js"],
-  },
-  { name: "Databases", subSkills: ["MongoDB", "Firebase", "MySQL"] },
-  {
-    name: "Tools",
-    subSkills: [
-      "VSCode / AndroidStudio",
-      "Git/Github",
-      "Docker",
-      "Postman",
-    ],
-  },
-];
+  '<span class="primary-color">Languages</span>: JavaScript, TypeScript, Dart, Python, SQL, HTML5/CSS3',
+  '<span class="primary-color">Frameworks & Libraries</span>: React.js, Node.js, Express.js, Flutter',
+  '<span class="primary-color">Databases</span>: MongoDB, Firebase, MySQL',
+  '<span class="primary-color">Tools & Platforms</span>: Git/GitHub, VS Code, Android Studio, Cursor AI, Postman, Docker (basic)',
+  '<span class="primary-color">Development Concepts</span>: Object-Oriented Programming, RESTful APIs, Architectural Patterns, Design Patterns, Version Control',
+]
 
 const projects = [
   {

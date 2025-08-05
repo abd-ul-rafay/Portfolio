@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-end justify-between w-[90%] md:w-[100%] md:px-6 lg:px-12 m-auto h-16 font-mono">
+    <nav className="flex items-center justify-between w-full px-4 md:px-6 lg:px-12 pt-3 pb-2 font-mono shadow-sm">
       <IntersectionAnim index={0} delay={0.1} type={"transDown"}>
         <div className="md:px-4">
           <a href="/">
@@ -22,8 +22,8 @@ const Navbar = () => {
           </a> 
         </div>
       </IntersectionAnim>
-      <div className="hidden md:flex items-center">
-        <ul className="flex">
+      <div className="hidden md:flex">
+        <ul className="flex items-end">
           {navItems.map((item, index) => (
             <IntersectionAnim
               key={index}

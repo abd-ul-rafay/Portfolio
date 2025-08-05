@@ -6,7 +6,7 @@ const MainContent = () => {
   return (
     <div className="calculated-vh flex flex-col justify-center py-4">
       <IntersectionAnim index={6} delay={0.1} type={"transUp"}>
-        <p className="font-mono text-lg font-medium primary-color">
+        <p className="font-mono text-md sm:text-lg font-medium primary-color">
           Hi, my name is
         </p>
       </IntersectionAnim>
@@ -16,7 +16,7 @@ const MainContent = () => {
         </h1>
       </IntersectionAnim>
       <IntersectionAnim index={8} delay={0.1} type={"transUp"}>
-        <h2 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold greyish-color pt-6 md:pt-4 md:leading-[4rem]">
+        <h2 className="font-sans text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold greyish-color pt-6 md:pt-4 md:leading-[4rem]">
           {mainHeading2}
         </h2>
       </IntersectionAnim>

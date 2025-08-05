@@ -13,22 +13,15 @@ const SkillsContent = () => {
           {skillsDescription}
         </p>
       </IntersectionAnim>
-      <div className="mt-8 md:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-40 gap-y-5">
-        {skills.map((ele, index) => (
-          <IntersectionAnim key={index} index={2} delay={0.1} type={"transUp"}>
-            <div>
-              <p className="primary-color">{ele.name}</p>
-              <div>
-                {ele.subSkills.map((sub, index) => (
-                  <p className="font-mono" key={index}>
-                    {sub}
-                  </p>
-                ))}
-              </div>
-            </div>
-          </IntersectionAnim>
+      <ul className="mt-8 md:mx-auto flex flex-col ">
+        {skills.map((skill, index) => (
+          <li key={index} className="py-1">
+            <IntersectionAnim index={2} delay={0.05 * (index + 1)} type="transUp">
+              <span dangerouslySetInnerHTML={{ __html: skill }} />
+            </IntersectionAnim>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };
