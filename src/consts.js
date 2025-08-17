@@ -2,7 +2,7 @@ const email = "abdulrafaykhatana@gmail.com";
 const githubLink = "https://github.com/abd-ul-rafay";
 const facebookLink = "https://www.facebook.com/abd.ul.rafay.khatana";
 const instagramLink = "https://instagram.com/abd.ul.rafay";
-const linkedinLink = "https://linkedin.com/in/abd-ul-rafay";
+const linkedinLink = "https://linkedin.com/in/abd-u1-rafay";
 const twitterLink = "https://twitter.com/abd_ul_rafay";
 
 const mainHeading2 = "I do projects for web and mobile.";

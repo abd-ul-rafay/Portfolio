@@ -14,7 +14,7 @@ const PreLoader = () => {
   return (
     <div className="h-screen flex flex-col items-center justify-center">
       <Lottie options={defaultOptions} height={50} width={50} />
-      <p className="font-mono text-sm md:text-lg primary-color pb-10">Abdulrafay's Portfolio</p>
+      <p className="font-mono text-sm md:text-lg primary-color pb-10">Abdul Rafay's Portfolio</p>
     </div>
   );
 };
