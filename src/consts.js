@@ -14,7 +14,7 @@ const aboutPara1 =
 const aboutPara2 =
   'Over the years, I\'ve honed my skills in <span class="primary-color">mobile app</span> development, crafting sleek and user-friendly experiences that bring ideas to life in the palm of your hand. As I delved deeper into the world of technology, I expanded my expertise to include <span class="primary-color">web applications</span>, leveraging the power of the web to create dynamic and responsive interfaces.';
 const aboutPara3 =
-  "Constantly seeking growth and new challenges, I'm currently diving into the realms of <span class=\"primary-color\"> artificial intelligence and machine learning</span>. The potential to harness data-driven insights and automate processes fascinates me, and I'm excited to explore how these cutting-edge technologies can revolutionize the way we interact with software.";
+  "Constantly seeking growth and new challenges, I'm currently diving into the realms of <span class=\"primary-color\"> AI and machine learning</span>. The potential to harness data-driven insights and automate processes fascinates me, and I'm excited to explore how these cutting-edge technologies can revolutionize the way we interact with software.";
 
 const skillsDescription =
   "As previously stated, my expertise lies in developing mobile and web applications. On a daily basis, I utilize a variety of technologies to both build and deploy my applications. These technologies are essential components of my workflow, ensuring that my projects are developed efficiently and deployed seamlessly. Some of the key technologies are below.";
